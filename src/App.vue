@@ -61,14 +61,6 @@ export default {
     login (){
 
       console.warn(this.form)
-      for(const item in this.form){
-        if(this.form[item] === "" || this.form[item].length === 0){
-          this.error.push(item)
-        }
-        if(this.error.length === 0){
-          alert('Data han been submitted')
-        }
-        console.warn(error)
       }
     }
   }
