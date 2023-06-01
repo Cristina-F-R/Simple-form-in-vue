@@ -54,7 +54,6 @@ export default {
         gender: '', 
         technology:[]
       },
-      error: [],
     }
   },
   methods:{
@@ -62,7 +61,6 @@ export default {
 
       console.warn(this.form)
       }
-    }
   }
 }
 
